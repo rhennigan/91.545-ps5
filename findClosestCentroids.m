@@ -27,7 +27,7 @@ for i = 1:N
   for j = 1:K
     distance(j) = norm(X(i, :) - centroids(j, :));
   end
-  [a, idx(i)] = min(distance); 
+  [~, idx(i)] = min(distance); 
 end
 
 % =============================================================

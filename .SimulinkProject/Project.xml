@@ -142,6 +142,13 @@
                 </Category>
             </Info>
         </File>
+        <File Location=".gitattributes">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="other"/>
+                </Category>
+            </Info>
+        </File>
     </Files>
     <ProjectData Location="Root"/>
     <Categories Location="Root">
